@@ -1,0 +1,300 @@
+div.introduction{
+    width: 100%;
+    padding: 10px; 
+    background-color: #31414E;
+}
+div.introduction>*{
+    width: 20%;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+}
+div.introduction>div.part-1>img.part2-1{
+    width:100%;
+    height: inherit;
+    position: absolute;
+    object-fit: cover;
+top:0;
+}
+div.introduction>div.part-2>img.part2-2{ 
+     width: 100%;
+    height: inherit;
+    position: absolute;
+    object-fit: cover;
+    top:0}
+div.introduction>div.part-3>img.part2-3{ 
+     width: 100%;
+    height: inherit;
+    position: absolute;
+    object-fit: cover;
+    top:0}
+div.introduction>div.part-4>img.part2-4{  
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    object-fit: cover;}
+    div.introduction>div.part-1>span.fa-telegram{
+      color: #36AEE0;
+      position: absolute;
+      margin-left: 5%;
+      top:100%;
+      opacity: 0;
+      transition: 300ms;
+      transition-delay: 200ms;
+}
+    div.introduction>div.part-1>span.fa-whatsapp{
+        color: #4CAF50;
+        position: absolute;
+        top:100%;
+        left: 35%;
+        opacity: 0;
+        transition: 300ms;
+        transition-delay: 400ms;
+}
+    div.introduction>div.part-1>span.fa-instagram{
+color: #DF02D9;
+position: absolute;
+left: 65%;
+top:100%;
+opacity: 0;
+transition: 300ms;
+transition-delay:600ms;
+
+    }
+    div.introduction>div.part-1>span.fa-linkedin-in{
+        color: #0A79B6;
+        position: absolute;
+margin-left: 90%;
+top:100%;
+opacity: 0;
+transition: 300ms;
+transition-delay:800ms;
+
+}
+div.introduction>div.part-1:hover>span.fa-telegram{
+margin-left: 5%;
+    top:90%;
+    transition: 300ms;
+    transition-delay: 200ms;
+    opacity: 1;
+}
+div.introduction>div.part-1:hover>span.fa-whatsapp{
+    left: 35%;
+    top:90%;
+    transition: 300ms;
+    transition-delay: 400ms;
+    opacity: 1;
+}
+div.introduction>div.part-1:hover>span.fa-instagram{
+    left: 65%;
+    top:90%;
+    transition: 300ms;
+    transition-delay:600ms;
+    opacity: 1;
+}
+div.introduction>div.part-1:hover>span.fa-linkedin-in{
+    margin-left: 90%;
+    top:90%;
+    transition: 300ms;
+    transition-delay:800ms;
+    opacity: 1;
+}
+div.introduction>div.part-2>span.fa-telegram{
+      color: #36AEE0;
+      position: absolute;
+      margin-left: 5%;
+      top:100%;
+      opacity: 0;
+      transition: 300ms;
+      transition-delay: 200ms;
+}
+    div.introduction>div.part-2>span.fa-whatsapp{
+        color: #4CAF50;
+        position: absolute;
+        top:100%;
+        left: 35%;
+        opacity: 0;
+        transition: 300ms;
+        transition-delay: 400ms;
+}
+    div.introduction>div.part-2>span.fa-instagram{
+color: #DF02D9;
+position: absolute;
+left: 65%;
+top:100%;
+opacity: 0;
+transition: 300ms;
+transition-delay:600ms;
+
+    }
+    div.introduction>div.part-2>span.fa-linkedin-in{
+        color: #0A79B6;
+        position: absolute;
+margin-left: 90%;
+top:100%;
+opacity: 0;
+transition: 300ms;
+transition-delay:800ms;
+
+}
+div.introduction>div.part-2:hover>span.fa-telegram{
+margin-left: 5%;
+    top:50%;
+    transition: 300ms;
+    transition-delay: 200ms;
+    opacity: 1;
+}
+div.introduction>div.part-2:hover>span.fa-whatsapp{
+    left: 35%;
+    top:50%;
+    transition: 300ms;
+    transition-delay: 400ms;
+    opacity: 1;
+}
+div.introduction>div.part-2:hover>span.fa-instagram{
+    left: 65%;
+    top:50%;
+    transition: 300ms;
+    transition-delay:600ms;
+    opacity: 1;
+}
+div.introduction>div.part-2:hover>span.fa-linkedin-in{
+    margin-left: 90%;
+    top:50%;
+    transition: 300ms;
+    transition-delay:800ms;
+    opacity: 1;
+}
+div.introduction>div.part-3>span.fa-telegram{
+    color: #36AEE0;
+    position: absolute;
+    margin-left: 5%;
+    top:100%;
+    opacity: 0;
+    transition: 300ms;
+    transition-delay: 200ms;
+}
+  div.introduction>div.part-3>span.fa-whatsapp{
+      color: #4CAF50;
+      position: absolute;
+      top:100%;
+      left: 35%;
+      opacity: 0;
+      transition: 300ms;
+      transition-delay: 400ms;
+}
+  div.introduction>div.part-3>span.fa-instagram{
+color: #DF02D9;
+position: absolute;
+left: 65%;
+top:100%;
+opacity: 0;
+transition: 300ms;
+transition-delay:600ms;
+
+  }
+  div.introduction>div.part-3>span.fa-linkedin-in{
+      color: #0A79B6;
+      position: absolute;
+margin-left: 90%;
+top:100%;
+opacity: 0;
+transition: 300ms;
+transition-delay:800ms;
+
+}
+div.introduction>div.part-3:hover>span.fa-telegram{
+margin-left: 5%;
+  top:0;
+  transition: 300ms;
+  transition-delay: 200ms;
+  opacity: 1;
+}
+div.introduction>div.part-3:hover>span.fa-whatsapp{
+  left: 35%;
+  top:0;
+  transition: 300ms;
+  transition-delay: 400ms;
+  opacity: 1;
+}
+div.introduction>div.part-3:hover>span.fa-instagram{
+  left: 65%;
+  top:0;
+  transition: 300ms;
+  transition-delay:600ms;
+  opacity: 1;
+}
+div.introduction>div.part-3:hover>span.fa-linkedin-in{
+  margin-left: 90%;
+  top:0;
+  transition: 300ms;
+  transition-delay:800ms;
+  opacity: 1;
+}
+div.introduction>div.part-4>span.fa-telegram{
+    color: #36AEE0;
+    position: absolute;
+    left: -15px;
+    top:90%;
+    opacity: 0;
+    transition: 300ms;
+    transition-delay: 200ms;
+}
+  div.introduction>div.part-4>span.fa-whatsapp{
+      color: #4CAF50;
+      position: absolute;
+      top:90%;
+      left: -25px;
+      opacity: 0;
+      transition: 300ms;
+      transition-delay: 400ms;
+}
+  div.introduction>div.part-4>span.fa-instagram{
+color: #DF02D9;
+position: absolute;
+left: -35px;
+top:90%;
+opacity: 0;
+transition: 300ms;
+transition-delay:600ms;
+
+  }
+  div.introduction>div.part-4>span.fa-linkedin-in{
+      color: #0A79B6;
+      position: absolute;
+left: -45px;
+top:90%;
+opacity: 0;
+transition: 300ms;
+transition-delay:800ms;
+
+}
+div.introduction>div.part-4:hover>span.fa-telegram{
+margin-left: 10%;
+  top:90%;
+  transition: 300ms;
+  transition-delay: 200ms;
+  opacity: 1;
+}
+div.introduction>div.part-4:hover>span.fa-whatsapp{
+  left: 35%;
+  top:90%;
+  transition: 300ms;
+  transition-delay: 400ms;
+  opacity: 1;
+}
+div.introduction>div.part-4:hover>span.fa-instagram{
+  left: 65%;
+  top:90%;
+  transition: 300ms;
+  transition-delay:600ms;
+  opacity: 1;
+}
+div.introduction>div.part-4:hover>span.fa-linkedin-in{
+  margin-left: 100%;
+  top:90%;
+  transition: 300ms;
+  transition-delay:800ms;
+  opacity: 1;
+}

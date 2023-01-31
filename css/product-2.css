@@ -1,0 +1,164 @@
+div.brands{
+    width: 100%;
+    background-color: #8FAB94;
+    padding: 80px;
+
+}
+div.part3-1{
+width: 650px;
+    display: inline-block;
+    position: relative;
+}
+div.part3-2{
+    width: 650px;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+div.brands>div.part3-1>img.Elie{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+
+}
+div.brands>div.part3-2>img.Joel{
+    width: 100%;
+    height: 365px;
+    display: inline-block ;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+div.brands>div.part3-1>span.fa-telegram{
+    position: absolute;
+   top:50px;
+   left: 60px;
+    color: #36AEE0;
+    opacity: 0;
+    transition: 300ms ;
+    transition-delay: 400ms;
+}
+div.brands>div.part3-1>span.fa-whatsapp{
+    position: absolute;
+    top:380px;
+    left:60px;
+    color: #4CAF50;
+    opacity: 0;
+    transition: 300ms ;
+    transition-delay: 600ms;
+}
+div.brands>div.part3-1>span.fa-instagram{
+    position: absolute;
+    top:50px;
+    left: 640px;
+    color: #DF02D9;
+    opacity: 0;
+    transition: 300ms ;
+    transition-delay: 800ms;
+}
+div.brands>.part3-1>span.fa-linkedin-in{
+    position: absolute;
+    top: 380px;
+    left: 640px;
+    color: #0A79B6;
+    opacity: 0;
+    transition: 300ms;
+    transition-delay: 1000ms;
+}
+div.brands>div.part3-1:hover>span.fa-telegram{
+   left:250px;
+   top: 125px;
+   opacity: 1;
+   transition: 300ms ;
+   transition-delay: 400ms;
+}
+div.brands>div.part3-1:hover>span.fa-whatsapp{
+    left:250px;
+    top: 250px;
+    opacity: 1;
+    transition: 300ms ;
+    transition-delay: 600ms;
+}
+div.brands>div.part3-1:hover>span.fa-instagram{
+    left:375px;
+    top: 125px;
+    opacity: 1;
+    transition: 300ms ;
+    transition-delay: 800ms;
+}
+div.brands>.part3-1:hover>span.fa-linkedin-in{
+    position: absolute;
+    top: 250px;
+    left: 375px;
+    opacity: 1;
+    transition: 300ms;
+    transition-delay: 1000ms;
+}
+div.brands>div.part3-2>span.fa-telegram{
+    position: absolute;
+   top:50px;
+   left: 60px;
+    color: #36AEE0;
+    opacity: 0;
+    transition: 300ms ;
+    transition-delay: 400ms;
+}
+div.brands>div.part3-2>span.fa-whatsapp{
+    position: absolute;
+    top:380px;
+    left:60px;
+    color: #4CAF50;
+    opacity: 0;
+    transition: 300ms ;
+    transition-delay: 600ms;
+}
+div.brands>div.part3-2>span.fa-instagram{
+    position: absolute;
+    top:50px;
+    left: 640px;
+    color: #DF02D9;
+    opacity: 0;
+    transition: 300ms ;
+    transition-delay: 800ms;
+}
+div.brands>.part3-2>span.fa-linkedin-in{
+    position: absolute;
+    top: 380px;
+    left: 640px;
+    color: #0A79B6;
+    opacity: 0;
+    transition: 300ms;
+    transition-delay: 1000ms;
+}
+div.brands>div.part3-2:hover>span.fa-telegram{
+    position: absolute;
+   left:300px;
+   top: 125px;
+   opacity: 1;
+   transition: 300ms ;
+   transition-delay: 400ms;
+}
+div.brands>div.part3-2:hover>span.fa-whatsapp{
+    position: absolute;
+    left:300px;
+    top: 250px;
+    opacity: 1;
+    transition: 300ms ;
+    transition-delay: 600ms;
+}
+div.brands>div.part3-2:hover>span.fa-instagram{
+    left:400px;
+    top: 125px;
+    opacity: 1;
+    transition: 300ms ;
+    transition-delay: 800ms;
+}
+div.brands>.part3-2:hover>span.fa-linkedin-in{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    opacity: 1;
+    transition: 300ms;
+    transition-delay: 1000ms;
+}

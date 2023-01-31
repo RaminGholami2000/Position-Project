@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Indie-Flower;
+    src: url('../fonts/eng/IndieFlower-Regular.ttf');
+}
+
+div.product{
+    width: 100%;
+    padding: 10px;
+    background-color: #1C2437;
+    display: inline-block;
+
+}
+div.product>div.part1{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    background-color: #54676B;
+    position: relative;
+    padding: 30px ;
+    margin-left: 70px;
+}
+div.product>div.part1>p.product-1{
+    display:inline-block ;
+    font-family: Indie-Flower;
+    font-size: 15px;
+    color: whitesmoke;
+    position: relative;
+    transition: 800ms;
+
+}
+div.product>div.part1>img.part1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: calc(100% - 50px);
+    top:0 ;
+    opacity: 0;
+    transition: 800ms;
+  
+ }
+div.product>div.part1:hover>img.part1{
+    right:0px;
+    opacity: 1;
+    transition: 800ms;
+    
+}
+div.product>div.part2{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    background-color: #54676B;
+    margin-left: 40px;
+
+}
+div.product>div.part2>p.product-2{
+    display:inline-block ;
+    font-family: Indie-Flower;
+    font-size: 15px;
+    color: whitesmoke;
+
+}
+div.product>div.part2>img.part2{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+    top: 0px;
+    left: calc(100% - 50px);
+    opacity: 0;
+    transition:800ms ;
+    
+}
+    div.product>div.part2:hover>img.part2{
+    left: 0px;
+    opacity: 1;
+    transition: 800ms;
+}
+    div.product>div.part3{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    margin-left: 40px;
+    background-color: #54676B;
+    display: inline-block;
+    position: relative;
+}
+  div.product>div.part3>p.product-3{
+    display:inline-block ;
+    font-family: Indie-Flower;
+    font-size: 15px;
+    color: whitesmoke;
+}
+div.product>div.part3>img.part3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 50px);
+    object-fit: cover;
+    /*opacity: 0;*/
+    transition: 800ms;
+    opacity: 0;
+}
+div.product>div.part3:hover>img.part3{
+    bottom:0;
+    opacity: 1;
+    transition: 800ms;}
+div.product>div.part4{
+    width: 300px;
+    height: 400px;
+    display:inline-block ;
+    background-color: #54676B;
+    padding: 30px ;
+    position: relative;
+    margin-left: 50px;}
+    div.product>div.part4>p.product-4{
+    font-family: Indie-Flower;
+    font-size: 15px;
+    color: whitesmoke;
+}
+div.product>div.part4>img.part4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: calc(100% - 50px);
+    object-fit: fill;
+    opacity: 0;
+    transition: 800ms;
+}
+div.product>div.part4:hover>img.part4{
+    left: 0;
+    opacity: 1;
+    transition: 800ms;
+}
